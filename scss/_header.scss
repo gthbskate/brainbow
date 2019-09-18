@@ -1,0 +1,354 @@
+@import 'colors';
+
+@media screen and (min-width: 1024px){
+    .nav-ico{
+        width: 141.21px;
+        height: 37.16px;
+        margin: 29.38px 19.46px 0px 79.45px;
+    }
+    
+    .navigateLinks{
+        
+        justify-content: flex-end;
+        margin: 40px 46px 0px 46px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .nav-link{
+        color: $color4 !important;
+        font-size: 14px;
+    }
+                
+    .servicesLogo_1{
+        margin: 18px auto 4.79px auto;
+        width: 33.95px;
+        height: 33.95px;
+    }
+    
+    .principalServicesContainer{
+        background-color: $color1;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .containerServices{
+        width: 216.49px;
+        height: 114.62px;
+        text-align: center;
+        justify-content: center;
+        margin: 53px 16px 55.69px 16px;
+        padding: 0px;
+        border-radius: 6px;
+        border-color: $color2;
+        border-width: 2px;
+        border-style: solid;
+        background-color: $color3;
+    }
+    
+    .lead{
+        font-size: 15px;
+        margin: 0px auto 21.28px auto;
+    }
+    
+    .back{
+        background-color: $color1;
+        #texColorNav1{
+            color: $color5 !important;
+        }
+        #texColorNav2{
+            color: $color5 !important;
+        }
+    }
+    
+    .hiden{
+        display: none;    
+    }
+    
+    #btnServicios{
+        padding: 0px 0px 19.46px 0px;
+    }
+    
+    .navbar{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .btn-outline{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+        font-size: 14px;
+        
+    }
+    .btn-outline:hover{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+    }
+    
+    .btn-outline:active{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+    }
+
+    .serviciosTogglerResponsive{
+        display: none !important;
+    }
+
+    .empresasTogglerResponsive{
+        display: none !important;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .navbar-toggler{
+        margin: 29px 46px 0px 0px;
+    }
+
+    .nav-ico{
+        width: 182.11px;
+        height: 47.92px;
+        margin: 37px 0px 20.8px 65px;
+    }
+    
+    .navigateLinks{
+        
+        justify-content: flex-end;
+        margin: 40px 46px 0px 46px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .nav-link{
+        color: $color6 !important;
+        font-size: 16px;
+        margin: 15px auto 15px auto;
+        font-weight: bold;
+    }
+                
+    .servicesLogo_1{
+        margin: 18px auto 4.79px auto;
+        width: 33.95px;
+        height: 33.95px;
+    }
+    
+    .principalServicesContainer{
+        display: none !important;
+        background-color: $color1;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .containerServices{
+        width: 216.49px;
+        height: 114.62px;
+        text-align: center;
+        justify-content: center;
+        margin: 53px 16px 55.69px 16px;
+        padding: 0px;
+        border-radius: 6px;
+        border-color: $color2;
+        border-width: 2px;
+        border-style: solid;
+        background-color: $color3;
+    }
+    
+    .lead{
+        font-size: 15px;
+        margin: 0px auto 21.28px auto;
+    }
+    
+    .back{
+        #texColorNav1{
+            color: $color6 !important;
+        }
+        #texColorNav2{
+            color: $color6 !important;
+        }
+    }
+    
+    .hiden{
+        display: none;    
+    }
+    
+    #btnServicios{
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .navbar{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .btn-outline{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+        font-size: 16px;
+        
+    }
+    .btn-outline:hover{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+    }
+    
+    .btn-outline:active{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+    }
+
+    .linkTogglerservicios{
+        color: $color4 !important;
+        text-decoration: none !important;
+        font-size: 16px;
+        display: block;
+        margin: 0px 0px 27px 0px !important;
+    }
+
+    .linkTogglerempresas{
+        color: $color4 !important;
+        text-decoration: none !important;
+        font-size: 16px;
+        display: block;
+        margin: 0px 0px 13.5px 0px !important;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px){
+    .navbar-toggler{
+        margin: 18px 19.94px 20.8px 0px;
+    }
+
+    .nav-ico{
+        width: 182.11px;
+        height: 47.92px;
+        margin: 18px 0px 20.8px 20px;
+    }
+    
+    .navigateLinks{
+        
+        justify-content: flex-end;
+        margin: 40px 46px 0px 46px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .nav-link{
+        color: $color6 !important;
+        font-size: 16px;
+        margin: 15px auto 15px auto;
+        font-weight: bold;
+    }
+                
+    .servicesLogo_1{
+        margin: 18px auto 4.79px auto;
+        width: 33.95px;
+        height: 33.95px;
+    }
+    
+    .principalServicesContainer{
+        display: none !important;
+        background-color: $color1;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .containerServices{
+        width: 216.49px;
+        height: 114.62px;
+        text-align: center;
+        justify-content: center;
+        margin: 53px 16px 55.69px 16px;
+        padding: 0px;
+        border-radius: 6px;
+        border-color: $color2;
+        border-width: 2px;
+        border-style: solid;
+        background-color: $color3;
+    }
+    
+    .lead{
+        font-size: 15px;
+        margin: 0px auto 21.28px auto;
+    }
+    
+    .back{
+        #texColorNav1{
+            color: $color6 !important;
+        }
+        #texColorNav2{
+            color: $color6 !important;
+        }
+    }
+    
+    .hiden{
+        display: none;    
+    }
+    
+    #btnServicios{
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .navbar{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .btn-outline{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+        font-size: 16px;
+        
+    }
+    .btn-outline:hover{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+    }
+    
+    .btn-outline:active{
+        border-color: $color4;
+        border-radius: 5px 5px 5px 5px;
+        border-width: 1px;
+        color: $color4;
+    }
+
+    .linkTogglerservicios{
+        color: $color4 !important;
+        text-decoration: none !important;
+        font-size: 16px;
+        display: block;
+        margin: 0px 0px 27px 0px !important;
+    }
+
+    .linkTogglerempresas{
+        color: $color4 !important;
+        text-decoration: none !important;
+        font-size: 16px;
+        display: block;
+        margin: 0px 0px 13.5px 0px !important;
+    }
+}
+   
+
+
+
+
+
+
+
+
